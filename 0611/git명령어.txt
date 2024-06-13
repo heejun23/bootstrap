@@ -1,0 +1,45 @@
+전역구성설정하기
+ git config -global core.autocrlf true
+
+사용자이름, 이메일 주소 등록
+git config --global user.name '이름'
+git config --global user.email '이메일주소'
+
+등록된 정보확인하기
+git config --global --list
+
+초기화 git폴더 생성
+ git init
+
+현재 파일목록 상태 확인(빨강, 초록)
+ git status
+
+변경파일을 추적하기 위하여 staged상태 변경(초록)
+ git add .
+ git status(초록인지 확인하기)
+
+현재파일 목록에 메세지 기록하기
+git commit -m '부트스트랩 목차'
+
+현재 파일버전 기록이 잘 되었는지 확인
+git log
+
+원격주소 연결하기
+git remote add origin git주소붙여넣기
+
+브런치명 변경하기
+git branch -m master main
+
+서버에 업로드하기
+git push origin +main
+
+
+
+
+
+
+
+
+
+
+
